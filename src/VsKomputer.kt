@@ -1,5 +1,4 @@
 class VsKomputer(val playerInput:String){
-
     val acak = arrayOf("kertas","gunting","batu")
     val inputKom = acak.random()
 

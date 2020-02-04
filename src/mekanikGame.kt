@@ -1,9 +1,12 @@
 class MekanikGame (val player1:String,val player2: String){
 
+
+    //listName.contains("NamaElement")
     fun mekanik(){
-        if (player1 == player2){
+        //.trim
+        if (player1.trim().toLowerCase().equals(player2)){
             println("draw")
-        }else if (player1.toLowerCase() == "batu"){
+        }else if (player1.trim().toLowerCase().equals("batu") ){
             if (player2.toLowerCase() == "kertas"){
                 println("Player 2 Menang")
             }else{

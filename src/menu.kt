@@ -19,6 +19,8 @@ fun menu(input1:Int){
 
                 println("mainLagi Y/N ? ")
                 input2 = readLine().toString().toLowerCase()
+
+
             }
 
             2 -> {
@@ -41,6 +43,4 @@ fun menu(input1:Int){
             else -> print("Menu tidak ditemukan!")
         }
     }while (input2 == "y")
-
-
 }
